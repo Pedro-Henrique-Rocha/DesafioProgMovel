@@ -1,0 +1,11 @@
+a {
+    text-decoration: none;
+    color: #1200af;
+    transition: 0.4s;
+
+    
+  }
+  
+  a:hover {
+    color: #8500f1;
+  }

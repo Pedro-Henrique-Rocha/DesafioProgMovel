@@ -1,0 +1,44 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+    border-bottom: 1px solid #8500f1;
+    background-color: rgba(0, 0, 124, 0.13);
+  }
+  .brand {
+    border: 0.05em solid #8500f1;
+    border-radius: 0.3em;
+    padding: 0 0.5em;
+  }
+  .brand,
+  .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .brand img {
+    width: 60px;
+    margin-right: 0.6em;
+  }
+  
+  .brand h2 {
+    transition: 0.4s;
+  }
+  
+  .brand:hover > h2 {
+    color: #8500f1;
+  }
+  
+  .links li {
+    margin-right: 1em;
+    list-style: none;
+    font-size: 1.5em;
+    border: 0.05em solid;
+    border-color: #8500f1;
+    border-radius: 0.3em;
+  }
+  
+  .links a {
+    padding: 0.1em 0.3em;
+  }
